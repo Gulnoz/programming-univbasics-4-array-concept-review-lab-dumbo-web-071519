@@ -13,9 +13,9 @@ def find_max_value(array)
   max=array.first
   array.length.times {|index|
   curr_el=array[index]
-   if curr_el>max{
+   if curr_el>max
     max=curr_el
-   }
+   end
   }
   max
 end
